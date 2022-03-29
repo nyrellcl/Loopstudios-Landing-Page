@@ -48,6 +48,33 @@ body{
   border: 2px solid white;
 }
 
+.titles{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.creations-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.btn {
+  width: 130px;
+  height: 35px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 700;
+  letter-spacing: 0.25rem;
+  background-color: white;
+  border: 1px solid black;
+}
+  
+
 /*Creations Grid*/
 
 .creations-grid{
