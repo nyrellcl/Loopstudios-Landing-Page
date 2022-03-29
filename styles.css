@@ -1,0 +1,34 @@
+/*Typography*/
+
+/*Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+/*Colors*/
+:root{
+  --dark-grey: hsl(0, 0%, 55%);
+  --very-dark-grey: hsl(0, 0%, 41%);
+}
+
+/*----*/
+
+body{
+  margin: 0;
+}
+
+.main-container{
+  padding: 3rem;
+}
+
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+}
