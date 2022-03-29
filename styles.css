@@ -59,4 +59,49 @@ body{
   width: 100%;
 }
 
+.creation-imgs{
+  width: 100%;
+}
+
+#deep-earth{
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+#night-arcade{
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+#soccer-team{
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+#the-grid{
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+}
+
+#from-above{
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+#borealis{
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+#curiousity{
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+#fish-eye{
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+}
+  
+
 
