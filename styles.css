@@ -36,6 +36,8 @@ body{
   display: flex;
   list-style: none;
   gap: 3rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
 }
 
 .nav-items{
@@ -50,6 +52,8 @@ body{
   font-size: 2.5rem;
   font-weight: 700;
   color: white;
+  margin-left: 2rem;
+  margin-top: 2rem;
   
 }
 .title-container {
