@@ -99,6 +99,28 @@ body{
   border: 1px solid black;
 }
 
+.image-1-container {
+  margin: 8rem 0;
+}
+
+#image-parent {
+  display: flex;
+  position: relative;
+  width: 90vw;
+  justify-content: center;
+}
+
+#image-child {
+  position: absolute;
+  background: white;
+  box-sizing: border-box;
+  height: auto;
+  width: 500px;
+  right: 0;
+  bottom: 0;
+  padding: 1rem;
+}
+
 .interactive-details {
   font-family: 'Alata', sans-serif;
   color: var(--dark-grey);
