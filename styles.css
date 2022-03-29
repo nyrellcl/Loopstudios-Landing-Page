@@ -99,6 +99,12 @@ body{
   border: 1px solid black;
 }
 
+.btn:hover{
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
 .image-1-container {
   margin: 8rem 0;
 }
