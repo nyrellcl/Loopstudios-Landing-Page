@@ -134,7 +134,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  padding: 4rem;
 }
 
 #footer-title> img{
@@ -142,18 +142,20 @@ body{
 }
 
 #logos{
-gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .footer-bar{
   display: flex;
-  justiy-content: space-between;
+  justify-content: space-between;
   align-items: center;
 }
 
 .footer-list{
   display: flex;
   gap: 3rem;
+  list-style: none;
 }
 
 .footer-items, .footer-details{
