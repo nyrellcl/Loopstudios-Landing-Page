@@ -17,8 +17,13 @@ body{
   margin: 0;
 }
 
-.main-container{
-  padding: 3rem;
+
+
+.header-container {
+  background-image: url(./images/desktop/image-hero.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .nav-bar{
@@ -35,23 +40,37 @@ body{
 
 .nav-items{
   font-family: 'Alata', sans-serif;
+  color: white;
 }
+
 
 .loop-studios{
   text-decoration: none;
   font-family: 'Alata', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  
+}
+.title-container {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+  margin: 10rem;
 }
 
 .page-title{
   font-family: 'Alata', sans-serif;
   font-size: 3rem;
-  border: 2px solid white;
+  margin: 2rem;
 }
 
 .titles{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 2.5rem;
   letter-spacing: 0.2rem;
+  text-transform: uppercase;
 }
 
 .creations-container {
@@ -84,6 +103,7 @@ body{
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, auto);
   width: 100%;
+  grid-gap: 1rem;
 }
 
 .creation-imgs{
