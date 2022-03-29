@@ -45,6 +45,11 @@ body{
   color: white;
 }
 
+.nav-items:hover{
+  cursor: pointer;
+  border-bottom: 4px solid white;
+}
+
 
 .loop-studios{
   text-decoration: none;
