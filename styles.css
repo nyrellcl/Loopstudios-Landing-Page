@@ -174,7 +174,7 @@ body{
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, auto);
   width: 100%;
-  grid-gap: 1rem;
+  margin-bottom: 10rem;
 }
 
 .creation-imgs{
