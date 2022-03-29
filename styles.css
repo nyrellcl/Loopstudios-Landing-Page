@@ -47,3 +47,16 @@ body{
   font-size: 3rem;
   border: 2px solid white;
 }
+
+/*Creations Grid*/
+
+.creations-grid{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  width: 100%;
+}
+
+
